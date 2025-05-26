@@ -1,5 +1,5 @@
 variable "filename" {
-    type = string
+  type = string
 }
 
 variable "length" {
