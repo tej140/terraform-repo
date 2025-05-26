@@ -4,7 +4,7 @@ resource "local_file" "pet" {
 }
 
 resource "random_pet" "my-pet" {
-  prefix = "Mrs"
+  prefix = "Mr"
   separator = "."
   length = 1
 }
