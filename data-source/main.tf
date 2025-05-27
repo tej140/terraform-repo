@@ -1,8 +1,8 @@
 resource "local_file" "pet" {
-  filename = "pet.txt"
+  filename = var.resource_filename
   content = data.local_file.dog.content
 }
 
 data "local_file" "dog" {
-  filename = "../dog.txt"
+  filename = var.data_source_filename
 }
