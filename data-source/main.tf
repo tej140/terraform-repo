@@ -1,6 +1,6 @@
 resource "local_file" "pet" {
   filename = var.resource_filename
-  content = data.local_file.dog.content
+  content  = data.local_file.dog.content
 }
 
 data "local_file" "dog" {
